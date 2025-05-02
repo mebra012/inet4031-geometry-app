@@ -17,15 +17,16 @@ This is a Python Flask web application built for INET4031. It calculates the vol
 
 ## How to Run the App
 
-1. **Create and activate a virtual environment** (optional but recommended):
-
 ```bash
+# 1. Create and activate a virtual environment (optional but recommended)
 python3 -m venv .venv
 source .venv/bin/activate
 
-2. **Install Flask:
-
-```bash
+# 2. Install Flask
 pip install Flask
 
+# 3. Run the Flask app
+flask --app GeometryCalcWeb.py run --port=5001
 
+# 4. Open your browser and go to:
+# http://127.0.0.1:5001
