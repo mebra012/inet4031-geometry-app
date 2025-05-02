@@ -22,3 +22,10 @@ This is a Python Flask web application built for INET4031. It calculates the vol
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
+
+2. **Install Flask:
+
+```bash
+pip install Flask
+
+
